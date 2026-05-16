@@ -38,7 +38,7 @@ class TextRegexPatterns:
     HYPHEN_CORRECTION = re.compile(r"\s+([—–-])\s+")
     DUPLICATED_SPACES = re.compile(r"\s+")
 
-    # URL fixing rules
+
     URL_SPACE_CORRECTION = re.compile(
         r"(\b\w+)\s*\.\s*(bcb|gov|br|com|net|org|ibge|mdic)\b", re.IGNORECASE
     )
